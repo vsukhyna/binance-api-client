@@ -1,0 +1,17 @@
+server:
+    port: 8086
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        show-sql: false
+    datasource:
+        url: jdbc:postgresql://localhost:5432/binance
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+
+binance:
+    api:
+        key:
+        secret:
